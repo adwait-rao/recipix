@@ -31,6 +31,7 @@ findRecipeBtn.addEventListener("click", async (event) => {
     renderRecipe(recipe);
   } catch (error) {
     alert("An error occurred. Please try again.");
+    console.error(error);
   } finally {
     findRecipeBtn.disabled = false;
     findRecipeBtn.textContent = "Find Recipe";

@@ -24,7 +24,7 @@ async function generateRecipe(ingredients) {
     generationConfig,
     history: [],
   });
-
+  console.log(apiKey);
   const result = await chatSession.sendMessage(`
     Generate a recipe using the following ingredients: ${ingredients}. 
 
