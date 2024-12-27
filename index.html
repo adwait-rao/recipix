@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/src/style.css" />
+    <title>Recipix</title>
+  </head>
+  <body>
+    <div id="app">
+      <div class="title-bar">
+        <p class="text-head">Recipix</p>
+      </div>
+      <div class="carousel">
+        <img src="kitchen.jpg" alt="" />
+        <div>
+          Explore Delicious Possibilities with Recipix
+          <p>
+            Turn Your Ingredients into Culinary Masterpieces – Powered by AI
+          </p>
+        </div>
+      </div>
+      <main>
+        <textarea
+          id="ingredients-input"
+          placeholder="e.g tomatoes, bread, butter"
+          value=""
+        ></textarea>
+        <div class="btn-container">
+          <button id="find-recipe" class="btn-primary">Find Recipe</button>
+          <button id="clear-input" class="btn-secondary">Clear</button>
+        </div>
+      </main>
+      <main id="recipe-container" class="hidden">
+        <!-- <h1 class="text-head">[Recipe Name]</h1>
+        <div class="text-content" style="margin: 2rem 1.5rem">
+          <h2>Ingredients:</h2>
+          <ul class="section">
+            <li>[Ingredient 1]</li>
+            <li>[Ingredient 2]</li>
+            <li>[Ingredient 3]</li>
+          </ul>
+
+          <h2>Instructions:</h2>
+          <ul class="section">
+            <li>[Step 1]</li>
+            <li>[Step 2]</li>
+            <li>[Step 3]</li>
+          </ul>
+
+          <h2>Notes:</h2>
+          <p class="section">[Optional Notes]</p> 
+        </div>-->
+      </main>
+      <div class="footer">
+        <p>© 2024 Recipix. All rights reserved.</p>
+      </div>
+    </div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
