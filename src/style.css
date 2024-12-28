@@ -128,6 +128,7 @@ button {
 .carousel {
   margin-bottom: 1rem;
   margin-top: 61px;
+  position: relative;
   img {
     filter: brightness(50%);
     display: block;
@@ -140,7 +141,7 @@ button {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -70%);
+    transform: translate(-50%, -50%);
     color: white;
     font-size: 3rem;
     font-family: "Montserrat", sans-serif;
